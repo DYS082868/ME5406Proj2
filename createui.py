@@ -486,3 +486,4 @@ if __name__ == '__main__':
         env.render()
         move=[0,0]
         env.step(move)
+
