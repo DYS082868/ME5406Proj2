@@ -467,13 +467,13 @@ class Viewer(pyglet.window.Window):
 
     def on_key_press(self, symbol, modifiers):
         if symbol == key.UP:
-            move = [0.4, 0.2]
+            move = [0.04, 0.02]
         elif symbol == key.DOWN:
-            move = [-0.4, -0.2]
+            move = [-0.04, -0.02]
         elif symbol == key.LEFT:
-            move = [0.2, 0.4]
+            move = [0.02, 0.04]
         elif symbol == key.RIGHT:
-            move = [-0.2, -0.4]
+            move = [-0.02, -0.04]
         else:
             move = [1, -1]
 
