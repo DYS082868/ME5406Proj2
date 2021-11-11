@@ -54,7 +54,7 @@ REACH_BALL= +100    # when the robot hits the ball
 HIT_WALL = 0     # the robot hits the wall
 DIS_RB_N= 1       # the nearer distance reward between the robot and the ball
 DIS_RB_F= -1       # the farther distance reward between the robot and the ball
-STEP = -0.02        # each step
+STEP = -3        # each step
 '''
     Oberservation:
         robot position, football position, robot speed, football speed, robot orientation, gate position
